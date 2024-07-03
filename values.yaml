@@ -23,7 +23,7 @@ ingress:
   enabled: true
   secret:
     enabled: true
-  host: plec-demo.dev.numerique-interieur.com
+  host: mi-testformation2024t2.apps.dso-formation.hp.numerique-interieur.com
 
 resources: 
   limits:

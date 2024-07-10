@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: harbor.apps.c6.numerique-interieur.com/mi-testformation2024t2/java-demo
+  repository: harbor.apps.c6.numerique-interieur.com/mi-testformation2024t3/tuto-java
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "master"
@@ -23,7 +23,7 @@ ingress:
   enabled: true
   secret:
     enabled: true
-  host: mi-testformation2024t2.apps.dso-formation.hp.numerique-interieur.com
+  host: mi-testformation2024t3.apps.dso-formation.hp.numerique-interieur.com
 
 resources: 
   limits:
